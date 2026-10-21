@@ -1,0 +1,70 @@
+# ==============================================================================
+# Halloween Ghost Dash — .gitignore
+# ==============================================================================
+
+# --- Dépendances ---
+node_modules/
+**/node_modules/
+.pnp/
+.pnp.js
+
+# --- Build / sortie ---
+dist/
+frontend/dist/
+build/
+.vite/
+*.tsbuildinfo
+
+# --- Données runtime persistées (le dossier est conservé via .gitkeep) ---
+backend/data/*.json
+backend/data/*
+!backend/data/.gitkeep
+
+# --- Secrets / variables d'environnement (NE JAMAIS COMMITER) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+*.crt
+credentials.json
+secrets.json
+.secrets
+.npmrc
+
+# --- Logs ---
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Caches d'outils / couverture ---
+coverage/
+.vitest/
+.nyc_output/
+.cache/
+.eslintcache
+
+# --- OS / éditeurs ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
+
+# --- Divers ---
+*.tmp
+*.bak
+*.orig

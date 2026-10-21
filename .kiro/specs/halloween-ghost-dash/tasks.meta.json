@@ -1,0 +1,660 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Échafauder le projet backend": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498604407
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498613956
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498698465
+      }
+    ],
+    "1.2 Échafauder le projet frontend": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498604489
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498614560
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498699505
+      }
+    ],
+    "2.1 Implémenter `scoreStore` (persistance JSON tolérante)": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498604516
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498703257
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498877145
+      }
+    ],
+    "2.2 Écrire le test basé sur les propriétés du tri Top 10": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498604549
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499155635
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499320681
+      }
+    ],
+    "2.3 Écrire le test basé sur les propriétés de persistance round-trip": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498604605
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499154902
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499321921
+      }
+    ],
+    "2.4 Écrire les tests unitaires de `scoreStore`": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498604640
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499153620
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499322902
+      }
+    ],
+    "3.1 Implémenter le routeur de scores avec validation stricte": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498604672
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498885003
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499144064
+      }
+    ],
+    "3.2 Implémenter le serveur Express": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498604696
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499327347
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499425031
+      }
+    ],
+    "3.3 Écrire les tests unitaires de validation du payload": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498604727
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499429532
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499585409
+      }
+    ],
+    "3.4 Écrire les tests d'intégration de l'API (supertest)": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498604752
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499592327
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499774658
+      }
+    ],
+    "4. Checkpoint backend": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498604805
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499954491
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499964421
+      }
+    ],
+    "5.1 Créer les constantes de gameplay et les touches": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498604838
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498704220
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498878547
+      }
+    ],
+    "5.2 Créer le bootstrap Phaser": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498604869
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498705123
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498879434
+      }
+    ],
+    "6.1 Implémenter `TextureFactory`": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498604896
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498706093
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498880381
+      }
+    ],
+    "6.2 Implémenter BootScene et PreloadScene": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498604931
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498885931
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499145221
+      }
+    ],
+    "7.1 Implémenter LauncherScene": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498604963
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498886949
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499146180
+      }
+    ],
+    "8.1 Implémenter l'entité Player": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498604989
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498888267
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499147621
+      }
+    ],
+    "8.2 Écrire le test basé sur les propriétés d'absorption des contacts": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498605019
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499328365
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499420734
+      }
+    ],
+    "8.3 Écrire le test basé sur les propriétés d'invariance du tir": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498605045
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499329766
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499422132
+      }
+    ],
+    "8.4 Implémenter l'entité Witch": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498605088
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499152747
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499319601
+      }
+    ],
+    "9.1 Implémenter `computeScore`": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498605128
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498888914
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499148149
+      }
+    ],
+    "9.2 Écrire le test basé sur les propriétés de formule déterministe": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498605154
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499330632
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499423070
+      }
+    ],
+    "9.3 Écrire le test basé sur les propriétés de monotonie": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498605189
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499331549
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499424471
+      }
+    ],
+    "9.4 Écrire les tests unitaires de `computeScore`": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498605214
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499432283
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499583939
+      }
+    ],
+    "10.1 Implémenter GameScene": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498605245
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499593116
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499773971
+      }
+    ],
+    "11.1 Implémenter ApiClient": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498605271
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499431333
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499585877
+      }
+    ],
+    "11.2 Implémenter SoundManager": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498605305
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499430434
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499583125
+      }
+    ],
+    "11.3 Implémenter GameOverScene": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498605331
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499780768
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499892172
+      }
+    ],
+    "11.4 Implémenter ScoreboardScene": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498605361
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499591236
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499771588
+      }
+    ],
+    "11.5 Implémenter SettingsScene": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498605388
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499590472
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499772538
+      }
+    ],
+    "12. Checkpoint frontend": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498605421
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499969221
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499986960
+      }
+    ],
+    "13.1 Créer les artefacts Docker du backend et du frontend": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498605457
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499779868
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499893056
+      }
+    ],
+    "13.2 Créer docker-compose.yml et le README": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498605512
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499896603
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499946730
+      }
+    ],
+    "14. Vérification finale": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498605538
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499990943
+      },
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792500087310
+      }
+    ],
+    "1. Échafauder la structure des deux services": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498699542
+      }
+    ],
+    "5. Implémenter le bootstrap et les constantes du frontend": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792498879471
+      }
+    ],
+    "6. Implémenter la génération procédurale des textures": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499145262
+      }
+    ],
+    "7. Implémenter la scène de lancement": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499146253
+      }
+    ],
+    "2. Implémenter la couche de persistance du backend": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499322934
+      }
+    ],
+    "8. Implémenter les entités de jeu": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499422169
+      }
+    ],
+    "9. Implémenter la logique de score pure": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499583969
+      }
+    ],
+    "10. Implémenter la scène de jeu": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499774012
+      }
+    ],
+    "3. Implémenter le routeur et le serveur du backend": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499774717
+      }
+    ],
+    "11. Implémenter les scènes de fin, de scores et de réglages, et les services": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499892241
+      }
+    ],
+    "13. Créer les artefacts Docker et la documentation": [
+      {
+        "executionId": "a5112a4e-cf8e-422e-b9b6-75ffa947b3a0",
+        "chatSessionId": "sess_1403da80-e47a-432d-b996-189af9bb3b6c",
+        "timestamp": 1792499946780
+      }
+    ]
+  }
+}

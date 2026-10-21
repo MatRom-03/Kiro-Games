@@ -1,0 +1,20 @@
+{
+  "name": "halloween-ghost-dash-frontend",
+  "version": "1.0.0",
+  "description": "Frontend Phaser 3 (Vite) pour Halloween Ghost Dash.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "phaser": "^3.80.1"
+  },
+  "devDependencies": {
+    "fast-check": "^3.19.0",
+    "vite": "^5.4.0",
+    "vitest": "^2.0.5"
+  }
+}

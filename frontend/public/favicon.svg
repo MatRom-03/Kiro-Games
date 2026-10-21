@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Fond violet nuit arrondi -->
+  <rect x="0" y="0" width="64" height="64" rx="14" fill="#1a0a2e"/>
+  <circle cx="32" cy="30" r="26" fill="#2a1240"/>
+  <!-- Corps du fantome -->
+  <g>
+    <!-- Tete + corps -->
+    <path d="M32 10
+             C21 10 15 18 15 30
+             L15 48
+             L22 42 L28 48 L32 42 L36 48 L42 42 L49 48
+             L49 30
+             C49 18 43 10 32 10 Z"
+          fill="#f6f6ff"/>
+    <!-- Ombrage leger -->
+    <path d="M32 10 C21 10 15 18 15 30 L15 40 C15 24 22 14 34 13 C33 11 33 10 32 10 Z"
+          fill="#ffffff" opacity="0.5"/>
+    <!-- Yeux orange -->
+    <circle cx="25" cy="28" r="5" fill="#ff8c1a"/>
+    <circle cx="39" cy="28" r="5" fill="#ff8c1a"/>
+    <circle cx="25" cy="28" r="2" fill="#2a1500"/>
+    <circle cx="39" cy="28" r="2" fill="#2a1500"/>
+    <!-- Bouche -->
+    <ellipse cx="32" cy="38" rx="4" ry="5" fill="#ff8c1a"/>
+  </g>
+  <!-- Petite lune -->
+  <circle cx="52" cy="13" r="6" fill="#ffe8b0"/>
+  <circle cx="55" cy="11" r="6" fill="#1a0a2e"/>
+</svg>

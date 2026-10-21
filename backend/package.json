@@ -1,0 +1,19 @@
+{
+  "name": "halloween-ghost-dash-backend",
+  "version": "1.0.0",
+  "description": "API REST Express pour la persistance du tableau des scores de Halloween Ghost Dash.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "vitest --run"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.8",
+    "supertest": "^7.0.0",
+    "fast-check": "^3.23.1"
+  }
+}

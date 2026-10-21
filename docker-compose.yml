@@ -1,0 +1,24 @@
+services:
+  backend:
+    build: ./backend
+    container_name: ghostdash-backend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./backend/data:/app/data   # persistance de scores.json
+    networks:
+      - ghostdash-net
+
+  frontend:
+    build: ./frontend
+    container_name: ghostdash-frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    networks:
+      - ghostdash-net
+
+networks:
+  ghostdash-net:
+    driver: bridge
